@@ -1,7 +1,8 @@
-/********************************
- * Programa q calcula la mitjana
- * artmètica de 2 enters
- * Xavi Blanes PXSI 25-26 ******/
+/*********************************
+ * Programa q calcula la mitjana *
+ * artmètica de 2 enters         *
+ * Xavi Blanes PXSI 25-26 ********/
+
 #include <stdio.h>
 void main(){
     int a, b, aux;
