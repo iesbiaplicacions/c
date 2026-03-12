@@ -1,3 +1,9 @@
+/****************************************************************
+ * Matriu de 5x5 d'enters a 0 i la diagonal principal 27        *
+ * suma dels elements de la fila                                *
+ * Xavi Blanes curs: 25/26                                      *
+ ***************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
