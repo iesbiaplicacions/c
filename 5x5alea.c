@@ -3,6 +3,7 @@
 #include <time.h>
 
 int main() {
+    int i, j;
     int matriu[5][5];
     
     // Inicialitzar la llavor per als números aleatoris
