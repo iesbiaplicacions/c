@@ -21,10 +21,9 @@ int main() {
 
     // Imprimir la matriu
     printf("Matriu 5x5 amb numeros aleatoris i la suma:\n");
-    for(i = 0; i < 5; i++) {
-        for(j = 0; j < 5; j++) {
+    for(i = 0; i < 5; i++){
+        for(j = 0; j < 5; j++) 
             printf("%3d ", matriu[i][j]);
-        }
         printf("\n");
     }
 
