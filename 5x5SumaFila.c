@@ -1,3 +1,10 @@
+/****************************************************************
+ * Matriu de 5x5 d'enters aleatoris amb la 5a columna com a suma de la /                   *
+ * Xavi Blanes curs: 25/26                                      *
+ * Completa el codi...                                          *
+ * *************************************************************/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
