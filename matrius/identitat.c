@@ -1,3 +1,10 @@
+/****************************************************************
+ * Funció identitat que diu si una matriu és identitat o no     *
+ * Xavi Blanes curs: 25/26                                      *
+ ***************************************************************/
+
+
+
 #include <stdio.h>
 
 int identitat(int m[10][10], int dimensio);
