@@ -3,14 +3,11 @@
  * Xavi Blanes curs: 25/26                                      *
  ***************************************************************/
 
-
-
 #include <stdio.h>
 
 int identitat(int m[10][10], int dimensio);
 
 int main() {
-    int i, j;
     int matriu[10][10] = { {1, 0, 0}, {0, 1, 0}, {0, 0, 1}};
     if(identitat(matriu,3)) printf("Identitat\n");
     else printf("No identitat\n");
