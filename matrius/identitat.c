@@ -15,11 +15,11 @@ int main() {
 }
 
 int identitat(int m[10][10], int dimensio){
-int i, j, id;
-id = 1;
+int i, j, esIdentitat;
+esIdentitat = 1; // Inicialitze la variable booleana a true
 for(i = 0; i < dimensio; i++)
         for(j = 0; j < dimensio; j++)
-            if(i == j) id = id && (m[i][j] == 1);
-            else id = id && (m[i][j] == 0);
-return id;
+            if(i == j) esIdentitat = esIdentitat && (m[i][j] == 1);
+            else esIdentitat = id && (m[i][j] == 0);
+return esIdentitat;
 }
