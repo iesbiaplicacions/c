@@ -20,6 +20,6 @@ esIdentitat = 1; // Inicialitze la variable booleana a true
 for(i = 0; i < dimensio; i++)
         for(j = 0; j < dimensio; j++)
             if(i == j) esIdentitat = esIdentitat && (m[i][j] == 1);
-            else esIdentitat = id && (m[i][j] == 0);
+            else esIdentitat = esIdentitat && (m[i][j] == 0);
 return esIdentitat;
 }
